@@ -1,0 +1,36 @@
+.post-header {
+    display: flex;
+    align-items: center;             
+}
+.post {
+    display: flex;
+    flex-direction: column;    
+    width: 950px;
+    margin: 20px auto;
+}
+i {
+  font-size: 50px;
+}
+p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.post-icons {
+    display: flex;
+}
+.icon-3 {
+    padding-left: 85%;
+}
+.icon-2 {
+  padding-left: 20px;
+}
+.icon-5 {
+  padding-left: 20px;
+}
+.icon-6 {
+  padding-left: 20px;
+}
+.icon-7 {
+  padding-left: 75%;
+} 
