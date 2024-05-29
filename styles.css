@@ -1,11 +1,14 @@
+body {
+  display: flex;
+  align-items: center;
+}
 .post-header {
     display: flex;
-    align-items: center;             
+    align-items: center; 
+    justify-content: space-between;            
 }
-.post {
-    display: flex;
-    flex-direction: column;    
-    width: 950px;
+.post {    
+    width: 50%;
     margin: 20px auto;
 }
 i {
@@ -18,19 +21,18 @@ p {
 }
 .post-icons {
     display: flex;
+    justify-content: space-between;
 }
-.icon-3 {
-    padding-left: 85%;
+.title {
+  display: flex;
+  align-items: center; 
 }
-.icon-2 {
-  padding-left: 20px;
+img {
+  height: 100%;
+  width: 100%; 
+  object-fit: cover;
 }
-.icon-5 {
-  padding-left: 20px;
+.text {
+  display: flex;
+  align-items: center; 
 }
-.icon-6 {
-  padding-left: 20px;
-}
-.icon-7 {
-  padding-left: 75%;
-} 
