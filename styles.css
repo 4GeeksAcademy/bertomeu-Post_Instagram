@@ -1,6 +1,8 @@
 body {
   display: flex;
   align-items: center;
+  width: 800px;
+  margin: auto;
 }
 .post-header {
     display: flex;
@@ -9,6 +11,7 @@ body {
 }
 .post {    
     width: 50%;
+    
     margin: 20px auto;
 }
 i {
